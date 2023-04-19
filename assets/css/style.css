@@ -5758,6 +5758,7 @@ Footer Area
   padding: 16px 0px;
   background: #282828 !important;
   font-family: Roboto, sans-serif !important;
+  min-height: 325px;
 }
 
 .footer-top {
@@ -6267,8 +6268,8 @@ Back To Top Button
 .top-btn {
   background: #002e5b;
   color: #ffffff;
-  width: 45px;
-  height: 45px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   box-shadow: #002e5b;
   font-size: 20px;
