@@ -176,7 +176,7 @@
     margin-left: 14px;
     margin-right: 14px;
     position: relative !important;
-    left: 13px !important;
+    /* left: 13px !important; */
     font-family: Roboto,sans-serif!important;
     font-size: 16px!important;
     letter-spacing: .5px !important;
@@ -197,7 +197,7 @@
     background: #0d1028;
     position: absolute;
     top: 80px;
-    left: 0;
+    left: -6px;
     width: 250px;
     z-index: 99;
     display: block;

@@ -397,10 +397,12 @@ Navbar Area
 }
 .main-nav nav .navbar-nav .nav-item .dropdown-menu {
   border: none;
-  border-top: 3px solid #ff3900;
   padding: 0;
   border-radius: 0;
   background-color: #ffffff !important;
+  border-radius: 4px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
 }
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li {
   border-bottom: 1px solid #ffffff;
@@ -423,8 +425,6 @@ Navbar Area
 }
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover, .main-nav nav .navbar-nav .nav-item .dropdown-menu li a :focus, .main-nav nav .navbar-nav .nav-item .dropdown-menu li a .active {
   color: #ff3900 !important;
-  margin-left: 5px;
-  border-radius: 0.25rem;
 }
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li.active {
   color: #ff3900 !important;
@@ -6911,4 +6911,46 @@ area {
 .sub-loc {
   font-family: Lustria, Georgia, "Times New Roman", Times, serif;
   font-size: 14px;
+}
+
+.whats-app {
+  width: 40px;
+  height: 45px;
+  background: #3498db;
+  position: fixed;
+  top: 50%;
+  right: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  padding: 10px 5px;
+  font-weight: 700;
+  margin-left: 5px;
+  font-size: 16px;
+}
+.whats-app a {
+  visibility: hidden;
+  opacity: 0;
+}
+.whats-app.email-img {
+  background: #ea2e30;
+  top: 57%;
+}
+.whats-app:hover {
+  width: 220px;
+  transition: all 0.25s ease;
+}
+.whats-app:hover a {
+  visibility: visible;
+  margin-left: 10px;
+  color: #fff;
+  opacity: 1;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+.mean-menu {
+  position: relative;
+  left: 13px;
 }/*# sourceMappingURL=style.css.map */
