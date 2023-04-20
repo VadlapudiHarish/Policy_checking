@@ -400,9 +400,8 @@ Navbar Area
                 .dropdown-menu {
                     border: none;
                     padding: 0;
-                    border-radius: 0;
                     background-color: $color-white !important;
-                    border-radius: 4px;
+                    border-radius: 3px;
                     border-top-right-radius:0;
                     border-top-left-radius:0;
 
@@ -413,12 +412,16 @@ Navbar Area
                         }
                         a {
                             text-transform: capitalize;
-                            color: $color-black !important;
+                            color: #202020 !important;
                             position: relative;
                             transition: 0.7s;
                             font-weight: 600;
-                            padding: 10px;
+                            padding: 5px 20px;
+                            font-size: 14px !important;
                             border-bottom: 1px dashed #ebebeb;
+                            &:last-child{
+                            border-bottom: none;
+                            }
                             &.active{
                                 border-radius: .25rem; 
                                 color: $main-color !important;
@@ -591,7 +594,7 @@ Navbar Area
                 }
                 .dropdown-menu {
                     li {
-                        border-bottom: 1px solid $color-white;
+                        border-bottom: 1px solid #f5f4f4;
                         &:last-child {
                             border-bottom: none;
                         }
@@ -618,6 +621,32 @@ Navbar Area
         }
     }
 }
+
+     .dropdown-menu {
+                    li {
+                        border-bottom: 1px solid $color-white;
+                        &:last-child {
+                            border-bottom: none;
+                        }
+                        a {
+                            &.active{
+                                &::before {
+                                    display: none;
+                                }
+                            }
+                            &:hover, :focus, .active{
+                                &::before {
+                                   display: none;
+                                }
+                            }
+                        }
+                        &.active{
+                            &::before {
+                                display: none;
+                            }
+                        }
+                    }
+                }
 .nav-bar-three {
     nav {
         .navbar-nav {
@@ -5929,7 +5958,7 @@ Footer Area
     padding: 16px 0px;
     background: #282828!important;
     font-family: Roboto,sans-serif!important;
-    min-height: 325px;
+    min-height: 300px;
 }
 .footer-top {
     border-bottom: 1px solid #e6e6e6;
