@@ -182,6 +182,7 @@
     letter-spacing: .5px !important;
     line-height: 40px;
     font-weight: 400!important;
+    cursor: pointer;
 }
 .main-nav nav .navbar-nav .nav-item a:hover, 
 .main-nav nav .navbar-nav .nav-item a:focus, 
