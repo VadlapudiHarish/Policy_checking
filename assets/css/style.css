@@ -415,7 +415,7 @@ Navbar Area
   position: relative;
   transition: 0.7s;
   font-weight: 600;
-  padding: 5px 20px;
+  padding: 0px 20px;
   font-size: 14px !important;
   border-bottom: 1px dashed #ebebeb;
 }
@@ -428,6 +428,7 @@ Navbar Area
 }
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover, .main-nav nav .navbar-nav .nav-item .dropdown-menu li a :focus, .main-nav nav .navbar-nav .nav-item .dropdown-menu li a .active {
   color: #ff3900 !important;
+  background-color: transparent;
 }
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li.active {
   color: #ff3900 !important;
@@ -580,6 +581,7 @@ Navbar Area
 }
 .nav-bar-two nav .navbar-nav .nav-item .dropdown-menu li {
   border-bottom: 1px solid #f5f4f4;
+  height: 40px;
 }
 .nav-bar-two nav .navbar-nav .nav-item .dropdown-menu li:last-child {
   border-bottom: none;
@@ -6959,6 +6961,7 @@ area {
 .whats-app:hover {
   width: 220px;
   transition: all 0.25s ease;
+  text-decoration: none;
 }
 .whats-app:hover a {
   visibility: visible;
@@ -6968,6 +6971,7 @@ area {
   font-size: 14px;
   font-weight: 700;
   margin-left: 5px;
+  text-decoration: none;
 }
 
 .mean-menu {

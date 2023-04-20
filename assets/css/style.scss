@@ -416,7 +416,7 @@ Navbar Area
                             position: relative;
                             transition: 0.7s;
                             font-weight: 600;
-                            padding: 5px 20px;
+                            padding: 0px 20px;
                             font-size: 14px !important;
                             border-bottom: 1px dashed #ebebeb;
                             &:last-child{
@@ -428,6 +428,8 @@ Navbar Area
                             }
                             &:hover, :focus, .active{
                                 color: $main-color !important;
+                                background-color: transparent;
+
                                 // margin-left: 5px;
                                 // border-radius: .25rem;
                             }
@@ -595,6 +597,7 @@ Navbar Area
                 .dropdown-menu {
                     li {
                         border-bottom: 1px solid #f5f4f4;
+                        height: 40px;
                         &:last-child {
                             border-bottom: none;
                         }
@@ -7338,6 +7341,8 @@ top: 10px;
     &:hover{
         width: 220px;
         transition: all .25s ease;
+        text-decoration: none;
+
         a{
             visibility: visible;
             margin-left: 10px;
@@ -7346,6 +7351,7 @@ top: 10px;
             font-size: 14px;
             font-weight: 700;
             margin-left: 5px;
+            text-decoration: none;
         }
     }
 }
